@@ -128,11 +128,49 @@
                         </svg>
                      </div>
                      <div class="header__search">
-                         
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                            
+                            <!-- Search History -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem trị mụn</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong shop</span>
+                            <i class="header__search-select-icon fa-solid fa-angle-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong Shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài Shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
                      </div>
 
+                     <!-- Cart layout -->
                      <div class="header__cart">
-                         
+                        <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+
+                        <div class="header__cart-list header__cart-list--no-cart">
+                            <img src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                        </div>
                     </div>
                  </div>
             </div>
